@@ -20,9 +20,9 @@ $(function() {
     area.forEach(function(e) {
       console.log(e);
       if (e % 2 === 0) {
-        $('#evens').append('Area: ' + e + ' ').css('background-color', 'yellow').css('height', '200px').css('width', '200px');
+        $('#evens').append('Area: ' + e + ' ').css({'background-color': 'yellow', 'height':'200px','width', '200px'});
       } else {
-        $('#odds').append('Area: ' + e + ' ').css('background-color', 'red').css('height', '200px').css('width', '200px');
+        $('#odds').append('Area: ' + e + ' ').css({'background-color': 'red', 'height':'200px','width', '200px'});
       }
     });
   }
